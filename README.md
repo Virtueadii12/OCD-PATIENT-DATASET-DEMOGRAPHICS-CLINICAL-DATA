@@ -1,28 +1,75 @@
-# OCD-PATIENT-DATASET-DEMOGRAPHICS-CLINICAL-DATA
-The goal of this project is to perform an exploratory data analysis (EDA) on a dataset containing demographic and clinical data of OCD patients. The analysis will focus on understanding the relationships between various demographic factors and clinical outcomes.
+# 🧠 OCD Patient Dataset: Demographics & Clinical Data
+
+This project focuses on exploring and analyzing clinical and demographic data of patients diagnosed with Obsessive-Compulsive Disorder (OCD). The objective is to identify trends and relationships in patient characteristics, symptom severity, and treatment outcomes using data science and visualization techniques.
+
+## 📂 Dataset Description
+
+The dataset includes anonymized records of OCD patients with features such as:
+
+- **Age**
+- **Gender**
+- **Education level**
+- **Marital status**
+- **Age of onset**
+- **Duration of illness**
+- **Severity of symptoms**
+- **Comorbidities**
+- **Treatment details**
+
+> Note: The dataset was used solely for academic and educational purposes.
+
+---
+
+## 🔧 Tools & Technologies
+
+- Python 🐍
+- Pandas
+- NumPy
+- Matplotlib & Seaborn
+- Jupyter Notebook
+
+---
+
+## 📊 Project Workflow
+
+1. **Data Collection** – Imported dataset (CSV format).
+2. **Data Cleaning** – Handled missing values, standardized column names.
+3. **Exploratory Data Analysis (EDA)** – Used statistical tools and visualizations to find patterns.
+4. **Feature Engineering** – Created relevant categorical/numerical features.
+5. **Visualization** – Age distribution, gender ratio, correlation heatmaps, symptom severity vs treatment outcomes, etc.
+6. **Insights & Conclusions** – Highlighted medical/demographic factors influencing OCD progression.
+
+---
+
+## 📈 Key Insights
+
+- Age of onset and duration of illness were key indicators of severity.
+- Certain comorbidities were more frequent in patients with severe symptoms.
+- Treatment effectiveness varied with early diagnosis.
+
+---
 
 
-About Dataset
-The "OCD Patient Dataset: Demographics & Clinical Data" is a comprehensive
-collection of information pertaining to 1500 individuals diagnosed with
-Obsessive-Compulsive Disorder (OCD). This dataset encompasses a wide range
-of parameters, providing a detailed insight into the demographic and clinical
-profiles of these individuals.
-Included in this dataset are key demographic details such as age, gender,
-ethnicity, marital status, and education level, offering a comprehensive overview
-of the sample population. Additionally, clinical information like the date of OCD
-diagnosis, duration of symptoms, and any previous psychiatric diagnoses are
-recorded, providing context to the patients' journeys.
-The dataset also delves into the specific nature of OCD symptoms, categorizing
-them into obsession and compulsion types. Severity of these symptoms is
-assessed using the Yale-Brown Obsessive-Compulsive Scale (Y-BOCS) scores
-for both obsessions and compulsions. Furthermore, it documents any
-co-occurring mental health conditions, including depression and anxiety
-diagnoses.
-Notably, the dataset outlines the medications prescribed to patients, offering
-valuable insights into the treatment approaches employed. It also records
-whether there is a family history of OCD, shedding light on potential genetic or
-environmental factors.
-Overall, this dataset serves as a valuable resource for researchers, clinicians,
-and mental health professionals seeking to gain a deeper understanding of OCD
-and its manifestations within a diverse patient population.
+---
+
+## 📝 Future Work
+
+- Apply machine learning for prediction (e.g., severity classification).
+- Explore time-series data if available.
+- Add dashboard (using Streamlit or Power BI).
+
+---
+
+## 🙋‍♂️ Author
+
+**Aditya Singh**  
+📧 [adityaasas@gmail.com](mailto:adityaasas@gmail.com)  
+🔗 [LinkedIn](https://www.linkedin.com/in/aditya-singh-a369ba1aa)
+
+---
+
+## ⚠️ Disclaimer
+
+This project is for educational purposes only. The dataset used does not represent real medical advice or diagnosis.
+
+
